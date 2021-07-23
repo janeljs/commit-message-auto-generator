@@ -24,6 +24,8 @@ git config --global alias.ac '!bash auto-commit.sh'
 ```
 ## Auto Commit & Push
 ### auto-commit-and-push.sh
+1. auto-commit.sh 스크립트에 push를 추가했다.
+2. `<target branch>` 자리에 타겟 브랜치를 써주면 된다.
 ```bash
 #!/bin/bash
 git add .
@@ -35,7 +37,7 @@ TITLE=${T##*:}
 ISSUE=${BRANCH##*-}
 MESSAGE="${CATEGORY:1}: (#${ISSUE}) ${TITLE:1}"
 git commit -m "${MESSAGE}"
-git push origin "${BRANCH:2}":develop
+git push origin "${BRANCH:2}":<target branch>
 ```
 ### git alias config
 ```bash
