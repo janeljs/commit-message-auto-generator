@@ -1,6 +1,6 @@
 # Commit Message Auto Generator
 - 알고리즘 문제 풀이 후 1초만에 커밋하기 위한 커밋 메시지 자동 생성기
-
+- [블로그 후기](https://velog.io/@janeljs/git-8)
 ## Auto Commit
 ### auto-commit.sh
 1. 게시글의 내용에서 카테고리와 타이틀 메타 데이터를 읽어온다.
