@@ -20,7 +20,7 @@ git commit -m "${MESSAGE}"
 ```
 ### git alias config
 ```bash
-git config --global alias.ac '!bash auto-commit.sh'
+git config alias.ac '!bash auto-commit.sh'
 ```
 ## Auto Commit & Push
 ### auto-commit-and-push.sh
@@ -41,5 +41,5 @@ git push origin "${BRANCH:2}":<target branch>
 ```
 ### git alias config
 ```bash
-git config --global alias.acp '!bash auto-commit-and-push.sh'
+git config alias.acp '!bash auto-commit-and-push.sh'
 ```
